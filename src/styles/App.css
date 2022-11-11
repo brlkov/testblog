@@ -1,0 +1,103 @@
+html {
+    font-family: Raleway, sans-serif;
+    font-size: 17px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.Posts {
+    margin-top: 20px;
+    width: 95vw;
+    max-width: 800px;
+}
+
+.Posts h1,h2,p {
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bolder;
+}
+
+.Posts .Post {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.Posts .PostButtons {
+    width: 110px;
+}
+
+.Posts .filter {
+    display: flex;
+}
+
+.Posts .loader {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.Posts .pages {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Posts .page {
+    width: 30px;
+    height: 30px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Posts .page_current {
+    background: #cdcdcd;
+}
+
+
+
+.About {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0;
+}
+
+
+
+.OnePost {
+
+    align-items: center;
+    margin: 70px 0;
+}
+
+.OnePost .loader {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.OnePost h2, p {
+    margin: 20px;
+}
+
+.canvas {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
